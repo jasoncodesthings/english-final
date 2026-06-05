@@ -32,6 +32,10 @@ def cs():
 def chorus():
     return render_template('chorus.html')
 
+@app.route("/essay", methods=['GET', 'POST'])
+def essay():
+    return render_template('essay.html')
+
 
 if __name__=='__main__':
     app.debug = True

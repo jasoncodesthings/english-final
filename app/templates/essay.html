@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type = "text/tailwindcss">
+      @theme {
+        --font-title: "roboto", sans-serif;
+        --font-mono: "in", inconsolata;
+        --color-pastel-blue: #d4f5ff;
+        --color-pizza: #0000FF;
+      }
+    </style>
+
+    <title>Login</title>
+
+  </head>
+
+  <body class = "bg-linear-to-bl from-indigo-500 to-violet-300">
+
+    <nav class = "flex items-center bg-gray-800 p-2 align-items: center">
+
+      <div class = "flex flex-auto justify-center">
+      <button class = "bg-black text-white border-1 text-[20px] hover:bg-white hover:text-black">
+      <a href="{{ url_for('home') }}">Home</a>
+      </button>
+
+      <button class = "bg-black text-white border-1 text-[20px] hover:bg-white hover:text-black">
+      <a href="{{ url_for('chorus') }}">Chorus</a>
+      </button>
+
+      <button class = "bg-black text-white border-1 text-[20px] hover:bg-white hover:text-black">
+      <a href="{{ url_for('cs') }}">Bonus CS Stuff</a>
+      </button>
+
+      <button class = "bg-black text-white border-1 text-[20px] hover:bg-white hover:text-black">
+      <a href="{{ url_for('essay') }}">Essay</a>
+      </button>
+      </div>
+    </nav>
+
+    <h2 class = "font-fancy text-center text-[140px]">Essay</h2>
+
+    <br>
+    <br>
+
+    <div>
+
+      <h3 class = "font-trivia text-center">
+
+        If anyone is interested in reading the essay portion of this final project, I have pasted it here.
+
+      </h3>
+
+      <h3 class = "font-trivia text-center text-[7px]">
+
+        I definitely did not finish this part and paste it here at 2:23 AM the day it is due!
+
+      </h3>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <h3 class = "font-trivia text-left text-[14px]">
+
+      Writing in the World
+      <br>
+      <br>
+      Mr. McCarthy
+      <br>
+      <br>
+      Museum of Stuyvilization Final
+      <br>
+      <br>
+      June 5, 2026
+      <br>
+      <br>
+      Who Am I?
+      <br>
+      <br>
+      I ran around my house right after clicking that button on my computer to reveal my 9th grade SHSAT score. I had finally done it. After months of intense studying, I had made the comeback that I always wanted ever since failing the 8th grade test. Yes, everything was super exciting, but now begs the question: Now what? I will have to say goodbye to my freshman year high school and transition into a much more rigorous and prestigious one that is three times the distance from my house. To make matters worse, I was late into the game. How would I go about surviving there? Would I be a good fit for the school in the first place?
+      <br>
+      <br>
+      My experience at Stuyvesant at first had me asking those types of questions. Coming in as a sophomore, I did not know what I was doing and I sort of felt like the odd one out of the pack. I needed to find something that I really liked, that I had lots of potential to succeed in. After some time, I eventually stumbled upon exploring Stuyvesant’s music department. I do play the piano and I have a good singing voice, so maybe I should give choir a shot. So, in the middle of December 2023, I went into the music office, talked to Ms. Shamazov about the choirs, and scheduled an audition. Little did I know, that would be the best decision I have made here. It turns out that I enjoy impressing and giving smiles to other people, through music, through funniness, through being us. Everything really came together when performing at the choral concerts at the end of every semester. Every single one was special to me because it gave plenty of special opportunities, each one being unique from each other from announcing, singing solos, and helping out and having fun with the stage crew. I made my closest friends there, enjoyed messing around with the piano, and had a great time giving performances in the theater. With that, I was able to define myself as a smart but silly student that loves music to death. I had truly found my place in the Stuyvesant community and I am happy about that.
+      <br>
+      <br>
+      This experience could not have been more similar to what the polar bears in Yoko Tawada’s Memoirs of a Polar Bear went through as well. In the novel, several generations of polar bears work their way through their lives with humans. One of which includes Tosca, who creates a circus act called “The Kiss of Death” with her animal trainer that becomes world famous. From Tosca’s perspective, he “took great pleasure in watching the children in the audience”, describing them being “ecstatic” from watching the performance (127). This heavily resonates with me because similar to Tosca, I enjoy making people smile with my performances as well. It is not just the great stuff that goes on behind the scenes including rehearsals and class time, but it is also the final product. The cheering, laughter, and standing ovations all put a high smile on my face, knowing that I shared something nice with the outside world. Tosca’s son, Knut, also has similar adventures to mine. Being raised by humans, he becomes one of the most popular figures at a zoo, and as he grows up, he becomes more aware to who he is, eventually acknowledging himself by saying “the word ‘I’ for the first time: ‘I am Knut, in case you don’t know’” (163). At the beginning of sophomore year, I was still a shy boy when entering the unfamiliar territory of Stuyvesant, but yes, my character heavily developed and made me realize who I really was. I blended in very well and became an avid member of the Stuyvesant community. The structure on how Knut’s perspective on life is comparable to my perspective in high school: finding identities. Similar to how I was able to navigate my way towards my identity, these polar bears were also able to achieve that from their unbreakable relationships with their caregivers and doing many things together throughout their lifespans.
+      <br>
+      <br>
+      My creation is a culmination of everything that I have enjoyed learning throughout my high school career, emphasizing the fact that I truly have found a lot of my interests and passions, allowing me to see myself as … me. It is presented in a nice little website, giving a good chunk of context and backstory to each element, along with some videos that feature various past choir concerts. Obviously, I could not put just one video and call it a day since every concert was special in its own way, and there were more than one moments that were the best of the best and could not be ignored. In addition, as a little bonus, I put another page about how I was able to make this website come to life in the first place and showed a CS project from junior year. I was able to use the skills that I have accumulated during my time at Stuy to create this special final project and to share one last thing to the world as a perfect sendoff to end my high school career.
+      <br>
+      <br>
+      Even then, I know there are still a million wonders out there in life that are still waiting for me to discover and enjoy. This creation is only just the beginning, and I know that there is so much more to add as time progresses on. We will all experience greater things, learn more advanced skills, and most importantly, enjoy ourselves as human beings on this planet. Once again, I had a great time exploring Stuyvesant and I had a lot of fun creating everything. Now college comes as the next chapter to have another unforgettable experience like no other.
+
+
+      </h3>
+
+    </div>
+
+  </body>
+</html>
