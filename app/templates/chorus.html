@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type = "text/tailwindcss">
+      @theme {
+        --font-title: "roboto", sans-serif;
+        --font-mono: "in", inconsolata;
+        --color-pastel-blue: #d4f5ff;
+        --color-pizza: #0000FF;
+      }
+    </style>
+
+    <title>Login</title>
+
+  </head>
+
+  <body class = "bg-linear-to-r from-fuchsia-300 to-orange-300">
+
+    <nav class = "flex items-center bg-gray-800 p-2 align-items: center">
+
+      <div class = "flex flex-auto justify-center">
+      <button class = "bg-black text-white border-1 text-[20px] hover:bg-white hover:text-black">
+      <a href="{{ url_for('home') }}">Home</a>
+      </button>
+
+      <button class = "bg-black text-white border-1 text-[20px] hover:bg-white hover:text-black">
+      <a href="{{ url_for('chorus') }}">Chorus</a>
+      </button>
+
+      <button class = "bg-black text-white border-1 text-[20px] hover:bg-white hover:text-black">
+      <a href="{{ url_for('cs') }}">Bonus CS Stuff</a>
+      </button>
+      </div>
+    </nav>
+
+    <h2 class = "font-fancy text-center text-[140px]">Chrous Stuff</h2>
+
+    <br>
+    <br>
+
+    <div class = "flex flex-auto">
+
+      <div class = "w-2/3">
+        <h3 class = "font-trivia text-center">
+
+          Short Intro
+
+          <br>
+          <br>
+
+          I am a current senior at Stuyvesant High School (Class of 2026).
+          I have achieved quite a lot at my three years here (I was not here my freshman year), and made tons of friends, memories, and fun times.
+
+          <br>
+          <br>
+
+          This website will showcase two of my favorite things made during my time at Stuy that I had a huge involvement in.
+          It may not seem like much, but those things took countless rehersal hours, sleepless nights, and just plain hard work.
+          The final products of everything all had a hugh place in my heart and in my memories of this school!
+
+        </h3>
+
+        <br>
+        <br>
+
+        <h5 class = "font-trivia text-center text-[7px]">
+          p.s. i wish i could've added more elements to this website but i made this whole thing the day before the due date and didn't have time to so do
+        </h5>
+      </div>
+
+      <div class = "w-1/3">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Fp9KusjSPo0" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/huNzBDbO5fw" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uI74j3JkcUk" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+    </div>
+
+  </body>
+</html>
